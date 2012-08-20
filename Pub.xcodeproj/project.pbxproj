@@ -21,6 +21,15 @@
 		6C09850815D9D5FC0082A841 /* ARCExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C09850615D9D5FC0082A841 /* ARCExtensions.h */; };
 		6C09850915D9D5FC0082A841 /* ARCExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C09850715D9D5FC0082A841 /* ARCExtensions.m */; };
 		6C09850A15D9D5FC0082A841 /* ARCExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C09850715D9D5FC0082A841 /* ARCExtensions.m */; };
+		6C831DCB15E08A50003BCF59 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C0984CC15D9CBAA0082A841 /* Cocoa.framework */; };
+		6C831DD115E08A50003BCF59 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6C831DCF15E08A50003BCF59 /* InfoPlist.strings */; };
+		6C831DD315E08A50003BCF59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C831DD215E08A50003BCF59 /* main.m */; };
+		6C831DD715E08A50003BCF59 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 6C831DD515E08A50003BCF59 /* Credits.rtf */; };
+		6C831DDA15E08A50003BCF59 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C831DD915E08A50003BCF59 /* AppDelegate.m */; };
+		6C831DDD15E08A51003BCF59 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C831DDB15E08A51003BCF59 /* MainMenu.xib */; };
+		6C831DE215E08A64003BCF59 /* Bartender.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C0984C915D9CBAA0082A841 /* Bartender.framework */; };
+		6C831DE515E08C3F003BCF59 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C831DE415E08C3F003BCF59 /* MenuViewController.m */; };
+		6C831DE815E08DB4003BCF59 /* MenuToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C831DE715E08DB4003BCF59 /* MenuToolbar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +63,19 @@
 		6C09850215D9D29D0082A841 /* Brew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Brew.m; sourceTree = "<group>"; };
 		6C09850615D9D5FC0082A841 /* ARCExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARCExtensions.h; sourceTree = "<group>"; };
 		6C09850715D9D5FC0082A841 /* ARCExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARCExtensions.m; sourceTree = "<group>"; };
+		6C831DC915E08A50003BCF59 /* Pub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C831DCE15E08A50003BCF59 /* Menu-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Menu-Info.plist"; sourceTree = "<group>"; };
+		6C831DD015E08A50003BCF59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6C831DD215E08A50003BCF59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6C831DD415E08A50003BCF59 /* Menu-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Menu-Prefix.pch"; sourceTree = "<group>"; };
+		6C831DD615E08A50003BCF59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		6C831DD815E08A50003BCF59 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6C831DD915E08A50003BCF59 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6C831DDC15E08A51003BCF59 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		6C831DE315E08C3F003BCF59 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		6C831DE415E08C3F003BCF59 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		6C831DE615E08DB4003BCF59 /* MenuToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuToolbar.h; sourceTree = "<group>"; };
+		6C831DE715E08DB4003BCF59 /* MenuToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuToolbar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +97,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6C831DC615E08A50003BCF59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C831DCB15E08A50003BCF59 /* Cocoa.framework in Frameworks */,
+				6C831DE215E08A64003BCF59 /* Bartender.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -85,6 +116,7 @@
 				6C09850715D9D5FC0082A841 /* ARCExtensions.m */,
 				6C0984D215D9CBAA0082A841 /* Bartender */,
 				6C0984E815D9CBAA0082A841 /* BartenderTests */,
+				6C831DCC15E08A50003BCF59 /* Menu */,
 				6C0984CB15D9CBAA0082A841 /* Frameworks */,
 				6C0984CA15D9CBAA0082A841 /* Products */,
 			);
@@ -95,6 +127,7 @@
 			children = (
 				6C0984C915D9CBAA0082A841 /* Bartender.framework */,
 				6C0984E115D9CBAA0082A841 /* BartenderTests.octest */,
+				6C831DC915E08A50003BCF59 /* Pub.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -160,6 +193,33 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		6C831DCC15E08A50003BCF59 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				6C831DD815E08A50003BCF59 /* AppDelegate.h */,
+				6C831DD915E08A50003BCF59 /* AppDelegate.m */,
+				6C831DDB15E08A51003BCF59 /* MainMenu.xib */,
+				6C831DE615E08DB4003BCF59 /* MenuToolbar.h */,
+				6C831DE715E08DB4003BCF59 /* MenuToolbar.m */,
+				6C831DE315E08C3F003BCF59 /* MenuViewController.h */,
+				6C831DE415E08C3F003BCF59 /* MenuViewController.m */,
+				6C831DCD15E08A50003BCF59 /* Supporting Files */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		6C831DCD15E08A50003BCF59 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C831DCE15E08A50003BCF59 /* Menu-Info.plist */,
+				6C831DCF15E08A50003BCF59 /* InfoPlist.strings */,
+				6C831DD215E08A50003BCF59 /* main.m */,
+				6C831DD415E08A50003BCF59 /* Menu-Prefix.pch */,
+				6C831DD515E08A50003BCF59 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -212,6 +272,23 @@
 			productReference = 6C0984E115D9CBAA0082A841 /* BartenderTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
+		6C831DC815E08A50003BCF59 /* Menu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C831DE015E08A51003BCF59 /* Build configuration list for PBXNativeTarget "Menu" */;
+			buildPhases = (
+				6C831DC515E08A50003BCF59 /* Sources */,
+				6C831DC615E08A50003BCF59 /* Frameworks */,
+				6C831DC715E08A50003BCF59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Menu;
+			productName = Menu;
+			productReference = 6C831DC915E08A50003BCF59 /* Pub.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -235,6 +312,7 @@
 			targets = (
 				6C0984C815D9CBAA0082A841 /* Bartender */,
 				6C0984E015D9CBAA0082A841 /* BartenderTests */,
+				6C831DC815E08A50003BCF59 /* Menu */,
 			);
 		};
 /* End PBXProject section */
@@ -253,6 +331,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C0984ED15D9CBAA0082A841 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C831DC715E08A50003BCF59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C831DD115E08A50003BCF59 /* InfoPlist.strings in Resources */,
+				6C831DD715E08A50003BCF59 /* Credits.rtf in Resources */,
+				6C831DDD15E08A51003BCF59 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +383,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6C831DC515E08A50003BCF59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C831DD315E08A50003BCF59 /* main.m in Sources */,
+				6C831DDA15E08A50003BCF59 /* AppDelegate.m in Sources */,
+				6C831DE515E08C3F003BCF59 /* MenuViewController.m in Sources */,
+				6C831DE815E08DB4003BCF59 /* MenuToolbar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -320,6 +419,30 @@
 				6C0984EC15D9CBAA0082A841 /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6C831DCF15E08A50003BCF59 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C831DD015E08A50003BCF59 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6C831DD515E08A50003BCF59 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C831DD615E08A50003BCF59 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		6C831DDB15E08A51003BCF59 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C831DDC15E08A51003BCF59 /* en */,
+			);
+			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -471,6 +594,65 @@
 			};
 			name = Release;
 		};
+		6C831DDE15E08A51003BCF59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Menu/Menu-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Menu/Menu-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = Pub;
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6C831DDF15E08A51003BCF59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Menu/Menu-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "Menu/Menu-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = Pub;
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -490,12 +672,22 @@
 				6C0984F215D9CBAA0082A841 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6C0984F615D9CBAA0082A841 /* Build configuration list for PBXNativeTarget "BartenderTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6C0984F315D9CBAA0082A841 /* Debug */,
 				6C0984F415D9CBAA0082A841 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C831DE015E08A51003BCF59 /* Build configuration list for PBXNativeTarget "Menu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C831DDE15E08A51003BCF59 /* Debug */,
+				6C831DDF15E08A51003BCF59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
